@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(229, 218, 75);
+  width: auto;
+}
+
+#nav a {
+  position: absolute;
+  left: 20px;
+  transition: 0.3s;
+  padding: 4px;
+  width: 120px;
+  text-decoration: none;
+  font-size: 18px;
+  background-color: white;
+  color: blue;
+  border-right: 18px solid black;
+}
+
+#nav a:hover {
+  width: 1px;
+  white-space: nowrap;
+  background-color: rgb(0, 0, 0);
+  border-right: 135px solid black;
+  color: white;
+}
+
+#nav a.active {
+  color: purple;
+}
+
+#nav a.active:hover {
+  color: white;
+}
+
+#hmpg {
+  top: 40px;
+}
+
+#mus {
+  top: 75px;
+}
+
+#mytwn {
+  top: 115px;
+}
+
+#lnks {
+  top: 150px;
+}
+
+#content h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  color: purple;
+}
+
+#content p {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 200px;
+  color: purple;
+}
+
+hr {
+  border: none;
+  border-top: 1px dotted purple;
+  color: #f4ecec;
+  height: 1px;
+  margin-left: 200px;
+  width: 350px;
+}

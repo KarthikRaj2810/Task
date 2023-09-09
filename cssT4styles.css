@@ -1,0 +1,38 @@
+h1 {
+  padding-left: 100px;
+}
+#sidebar a {
+  position: absolute;
+  left: -80px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 0 5px 5px 0;
+}
+
+#sidebar a:hover {
+  left: 0;
+}
+
+#home {
+  top: 20px;
+  background-color: rgb(10, 184, 114);
+}
+
+#java {
+  top: 80px;
+  background-color: rgb(39, 148, 232);
+}
+
+#html {
+  top: 140px;
+  background-color: rgb(237, 57, 37);
+}
+
+#css {
+  top: 200px;
+  background-color: rgb(90, 88, 88);
+}
